@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "mk.ukim.finki.consultations"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "mk.ukim.finki.consultations"
+    },
+    "cordova-plugin-x-toast": {
+      "PACKAGE_NAME": "mk.ukim.finki.consultations"
+    }
+  },
+  "dependent_plugins": {}
+}

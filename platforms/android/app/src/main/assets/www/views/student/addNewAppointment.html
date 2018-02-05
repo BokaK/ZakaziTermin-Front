@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="../../css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <title>Consultations</title>
+</head>
+<body class="app">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="main.html">
+                <i class="fa fa-angle-left"></i>
+            </a>
+            <h4 class="navbar-text text-center" style="display: inline-block; width: 80%">
+                Нов термин
+            </h4>
+            <button class="btn navbar-btn btn-sm btnHeader" onclick="saveNewAppointment()" style="color: #5cb85c;">
+                <i class="fa fa-check" style="font-size: 20px"></i>
+            </button>
+        </div>
+    </div>
+</nav>
+<div class="container" id="addNewAppointment">
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <select id="semesterTypeSelect" class="form-control">
+                <option disabled selected value="default" style="display: none"> Изберете семестар </option>
+                <option value="WINTER_SEMESTER">Зимски</option>
+                <option value="SUMMER_SEMESTER">Летен</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <select id="subjectSelect" class="form-control">
+            </select>
+        </div>
+    </div>
+
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <select id="professorSelect" class="form-control">
+            </select>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <span style="margin-right: 20px">Изберете датум:</span>
+            <input id="date" type="date" class="form-control customControl">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <span style="margin-right: 20px">Изберете време:</span>
+            <input type="time" id="inputTime" value="13:30" class="form-control customControl">
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3">
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../../js/index.js"></script>
+
+<script type="text/javascript" src="../../js/student.js"></script>
+
+</body>
+</html>

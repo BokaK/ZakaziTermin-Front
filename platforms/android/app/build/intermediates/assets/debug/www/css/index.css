@@ -1,0 +1,54 @@
+body {
+
+}
+
+.app {
+
+}
+
+.btnCustom
+{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.customControl
+{
+    width:67% !important;
+    display: inline !important;
+}
+.btnLogout
+{
+    position: absolute;
+    left: 5px;
+    color: #d9534f;
+    background-color: transparent;
+
+}
+.btnDelete
+{
+    color: #d9534f;
+    background-color: transparent;
+}
+.btnProfessor
+{
+    padding-left: 5px;
+    padding-right:5px;
+}
+.btnHeader
+{
+    position: absolute;
+    right: 0px;
+    background-color: transparent;
+}
+#addNewAppointment .row
+{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+
+}
+
